@@ -1,0 +1,24 @@
+{
+  "lang": "en",
+  "site": "",
+  "center": [47.0105, 28.8638],
+  "posts": [
+    [47.01185, 28.86155],
+    [47.01185, 28.86505],
+    [47.00915, 28.86155],
+    [47.00915, 28.86505]
+  ],
+  "whitelist": [],
+  "timeout": 15,
+  "autoconnect": false,
+  "links": {
+    "radar": {"proto": "MAVLink 2 / UART", "ep": "", "baud": 57600, "on": false},
+    "tracker": {"proto": "MAVLink 2 / UART", "ep": "", "baud": 57600, "on": false},
+    "camera": {"proto": "RTSP", "ep": "rtsp://192.168.10.20:8554/stream", "baud": 57600, "on": false},
+    "resp": {"proto": "JSON / UDP", "ep": "0.0.0.0:5010", "baud": 57600, "on": false},
+    "post0": {"proto": "JSON / UDP", "ep": "0.0.0.0:5001", "baud": 57600, "on": false},
+    "post1": {"proto": "JSON / UDP", "ep": "0.0.0.0:5002", "baud": 57600, "on": false},
+    "post2": {"proto": "JSON / UDP", "ep": "0.0.0.0:5003", "baud": 57600, "on": false},
+    "post3": {"proto": "JSON / UDP", "ep": "0.0.0.0:5004", "baud": 57600, "on": false}
+  }
+}
